@@ -5,8 +5,12 @@ body {
 }
 .topo {
   width: 100%;
-  height: 60px;
+  height: 70px;
   background-color: cadetblue;
+}
+.topo h1:first-letter {
+  text-decoration: underline orange;
+  text-underline-position: under;
 }
 .topo h1 {
   font-family: Roboto;
