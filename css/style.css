@@ -14,7 +14,7 @@ body {
 }
 .topo h1 {
   font-family: Roboto;
-  font-size: 48px;
+  font-size: 3em;
   color: wheat;
   margin: auto;
   text-align: center;
@@ -36,7 +36,7 @@ body {
 }
 .apresentacao div p {
   color: #fff;
-  font: 36px/15px roboto;
+  font: 2.1em/15px roboto;
   text-align: center;
   text-transform: uppercase;
 }
