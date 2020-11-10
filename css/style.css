@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0px;
   height: 100%;
+  background-color: #eee;
 }
 .topo {
   width: 100%;
@@ -38,6 +39,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
+  border-bottom: 4px solid orange;
 }
 .apresentacao div {
   margin: auto;
