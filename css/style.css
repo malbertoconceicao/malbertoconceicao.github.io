@@ -8,15 +8,28 @@ body {
   height: 70px;
   background-color: rgb(0, 0, 0);
 }
+.titulo:first-letter {
+  text-decoration: underline orange;
+  text-underline-position: under;
+}
+
+.titulo {
+  font-family: Arial;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
 .topo h1:first-letter {
   text-decoration: underline orange;
   text-underline-position: under;
 }
 .topo h1 {
-  font-family: Roboto;
+  font-family: Arial;
   font-size: 3em;
   color: white;
   margin-left: 30px;
+  margin-top: 0;
 }
 .apresentacao {
   height: 400px;
