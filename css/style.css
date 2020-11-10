@@ -15,7 +15,7 @@ body {
 }
 
 .titulo {
-  font-family: Arial;
+  font-family: Syne Mono;
   font-size: 3em;
   color: black;
   text-align: center;
@@ -26,7 +26,7 @@ body {
   text-underline-position: under;
 }
 .topo h1 {
-  font-family: Arial;
+  font-family: Syne Mono;
   font-size: 3em;
   color: white;
   margin-left: 30px;
@@ -54,4 +54,8 @@ body {
   font: 2.1em/15px roboto;
   text-align: center;
   text-transform: uppercase;
+}
+nav ul li {
+  display: inline;
+  text-align: right;
 }
