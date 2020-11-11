@@ -1,26 +1,32 @@
 body {
   margin: 0;
   padding: 0px;
-  height: 100%;
   background-color: #eee;
 }
 .topo {
   background-image: url("../img/bg_apresentacao.jpg");
-  background-position: center;
+  background-position: 80% 50%;
+  background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 4px solid orange;
   height: 500px;
 }
-.topo h1 {
-  width: 100%;
-  color: white;
+.topo div {
   background-color: rgba(0, 0, 0, 40%);
+}
+.topo h1 {
+  color: white;
   margin-top: 0;
-  height: 90px;
-  font: 4em/80px Syne Mono;
-  padding-left: 30px;
+  width: 940px;
+  height: 60px;
+  font: 2.5em/60px Syne Mono;
+  margin: auto;
 }
 .topo h1:first-letter {
+  text-decoration: underline orange;
+  text-underline-position: under;
+}
+.titulo:first-letter {
   text-decoration: underline orange;
   text-underline-position: under;
 }
@@ -34,4 +40,11 @@ body {
   margin-top: 150px;
   border-radius: 10px;
   font: 2.5em/90px Roboto;
+}
+.titulo {
+  width: 100%;
+}
+.container {
+  width: 940px;
+  margin: auto;
 }
