@@ -61,3 +61,10 @@ nav ul li a {
   height: 200px;
   float: left;
 }
+.box a img {
+  width: 380px;
+  height: 200px;
+}
+.box a img:hover {
+  opacity: 80%;
+}
